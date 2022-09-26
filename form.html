@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head><title>homepage</title></head>
+<form action="file.php"style="margin:auto;width:250px;" >
+<h>placement registration<h><br>
+<body>
+<table border="2">
+<input type="radio" name="gender" value="mr" id="mr">mr
+<input type="radio" name="gender" value="mrs" id="mrs">mrs
+<input type="radio" name="gender" value="ms" id="ms">ms<br>
+student id:<input type="text" placeholder="studentid"><br>
+
+first name:<input type="text" placeholder="firstname"><br>
+last name:<input type="text" placeholder="lastname"><br>
+username:<input type="text" placeholder="username"><br>
+password:<input type="password" placeholder="password"><br>
+address:<textarea id="address" name="address"rows="6" cols="30" placeholder="enter the address"> </textarea><br>
+city:<input type="text" ><br>
+state:<select name="states"id="states">
+<option value="telangana">telangana</option>
+<option value="tamilnadu">tamilnadu</option>
+<option value="AP">AP</option>
+<option value="UP">UP</option>
+</select><br>
+pincode:<input type="text"><br>
+upload photo:<input type="file" name="image"id="image" placeholder="choose a file">
+email:<input type="text" placeholder="enter email"><br>
+mobile:<input type="text"name="mobile" value="+91">
+languages known:<input type="checkbox" id="lan1" name="language" value="english">
+<label for="lan1">english</label><br>
+<input type="checkbox" id="lan2" name="language" value="hindi" >
+<label for="lan2">hindi</label><br>
+<input type="checkbox" id="lan3" name="language" value="telugu">
+<label for="lan3">telugu</label><br>
+additional info:<textarea id="info" name="info"placeholder="optional" rows=5 cols=30></textarea>
+<input type="checkbox" id="terms" name="terms">
+<label for="terms">i accept all the terms and conditions</label><br>
+<input type="submit" style="text-align:center;" value="submit">
+<input type="reset" style="text-align:center;" value="reset">
+</table>
+</body>
+</form>
+</html>
+
